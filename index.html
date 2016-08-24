@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
+    <!-- tells type of characters used -->
     <title>Journal</title>
   </head>
   <body>
-    <h1>HELLO WORLD</h1>
-    
+    <header>
+    <h1>Angela Geronimo</h1>
+    <h4>Tan2111 My Journal</h4>
     <img src="https://avatars3.githubusercontent.com/u/20864644?v=3&s=460">
-    
-    <div>
-    <h2><b>My First Entry</b></h2>
-    <span> Aug 15, 2016</span>
-      <h3> Why I took this class:</h3>
-      <p> I took this class because I want to learn how to program. I have a couple of friends that know some programming languages like HTML and Java. They were my inspiration to take this class because I aspire to reach or possibly exceed them in programming. This class would certainly be a big help. I also wanted to be one of the first people to take the class since this is the first tme it is being offered to a public school in Hawai'i </p>
-    
-      <h3> What I want to get out of this class:</h3>
-      <p> By the end of this school year, I want to be able to program fluently in at least two programming languages. I also want to be able to program a robot for First Robotics Competition (FRC) using Java.  </p>
-    </div>
+    </header>
+
+    <div class="container">
+      <div class="aside">
+        <h5>Blog</h5>
+        <nav>
+          <ul>
+            <li>
+              <a href="#first">My First Blog Entry</a>
+            </li>
+            <li>
+              <a href="#">HTML &amp; CSS</a>
+            </li>
+            <li>
+              <a href="#">Javascript</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="first" class="content">
+        <h2><b>My First Entry</b></h2>
+        <span> Aug 15, 2016</span>
+        <div class="article"> <!--allow u to style-->
+          <h3> Why I took this class:</h3>
+          <p> I took this class because I want to learn how to program. I have a couple of friends that know some programming languages like HTML and Java. They were my inspiration to take this class because I aspire to reach or possibly exceed them in programming. This class would certainly be a big help. I also wanted to be one of the first people to take the class since this is the first tme it is being offered to a public school in Hawai'i 
+          </p>
+        </div>
+        <div class="article">
+          <h3> What I want to get out of this class:</h3>
+          <p> <span class="highlight"> By the end of this school year, </span>I want to be able to program fluently in at least two programming languages. I also want to be able to program a robot for First Robotics Competition (FRC) using Java.  
+          </p>
+          </div>
+      </div>
+      <div id="second" class="content">
+        <h2>UX vs UI</h2>
+        <h6>Aug 24, 2016</h6>
+        <div class="article">
+          <h3> Difference Between UX and UI</h3>
+          <p>
+            UX stands for User Experience. It deals with organization, layout, etc. Essentially, it's how the user interacts with a website. For example, a good user experience would be a website that is easy to navigate, isn't cluttered, and has a logical flow of links and bodies of text. With these traits, the user would have a pleasant time browsing throught the site.
+          </p>
+          <p>
+            UI stands for User Interface. The user interface deals with the aesthetic aspect of website. It can include color 
+          </p>
+
+      </div>
+
+    <footer>
+      <p>copyright</p>
+    </footer>
   </body>
 </html>
