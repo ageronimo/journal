@@ -1,24 +1,39 @@
-.header {
-  color: blue;
-}
-
-.content {
-  border: 1px solid #000;
-  margin: 25px 10px;
+html {
+  height: 100%;
 }
 
 header {
-  
+  padding: 10px 15px;
+  text-align: center;
 }
 
-body {
-  background-color: #B4E1FF;
-}
-
-footer {
-  float: center;
+.content {
+  background-color: #b4e1ff;
+  padding: 20px;
+  float: right;
+  right: 15px;
+  margin: 10px 10px;
+  width: 75%;
 }
 
 .aside {
-  
+  position: absolute;
+  left: 25px;
+  margin: 5px;
+  width: 200px;
+  background-color: #fff8c4;
+  text-align: center;
+  position: fixed;
+}
+
+footer {
+  margin: 10px 10px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
 }
