@@ -44,7 +44,7 @@ var simplifiedJSON = [
     "identification": {
       "id": "first",
       "class": "content"
-    }
+    },
     "journalEntry": "1",
     "date": "August 15, 2016",
     "title": "My First Entry", 
